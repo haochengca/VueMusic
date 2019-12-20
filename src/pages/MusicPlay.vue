@@ -1,6 +1,8 @@
 <template>
     <div class="play">
-      <Alert type="error"> No api for playing music any more!! This page is only a display of player UI and lyric</Alert>
+      <div class="alert">
+        <span class="msg"> No api for playing music any more!! This page is only a display of player UI</span>
+      </div>
 
       <div class="header">
         <div class="title">
@@ -172,5 +174,14 @@
     font-size: 12px;
     color: #999;
   }
+  .alert{
+    background-color: #bd4778;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+  }
+.alert .msg{
+  font-size: 20px;
+}
 
 </style>
